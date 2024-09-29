@@ -5,13 +5,9 @@ import {
   Output,
   EventEmitter,
 } from '@angular/core';
-import { DUMMY_USERS } from '../dummy-users';
 import { type User } from './user.model';
-import { CardComponent } from '../shared/card/card.component';
 @Component({
   selector: 'app-user',
-  standalone: true,
-  imports: [CardComponent],
   templateUrl: './user.component.html',
   styleUrl: './user.component.css',
 })
